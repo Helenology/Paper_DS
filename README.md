@@ -27,16 +27,16 @@ The repository is organized into modular components, including simulation script
 
 - ⚠️ Note that there may be package compatibility issues. Please execute the following command in the terminal to create a virtual environment with compatible versions:
 ```bash
-# Create a new Conda virtual environment named "env" with Python 3.10
+# Step 1: Create a new Conda virtual environment named "env" with Python 3.10
 conda create -n env python=3.10 -y
 
-# Activate the newly created environment
+# Step 2: Activate the newly created environment
 conda activate env
 
-# Run the installation script to install required dependencies
+# Step 3: Run the installation script to install required dependencies
 sh install.sh
 
-# Register this environment as a Jupyter kernel 
+# Step 4: Register this environment as a Jupyter kernel 
 # so it appears as "Python (env)" in Jupyter Notebook or VS Code
 python -m ipykernel install --user --name env --display-name "Python (env)"
 ```
