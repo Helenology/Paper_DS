@@ -56,6 +56,6 @@ python -m ipykernel install --user --name env --display-name "Python (env)"
 | [simu_auxiliary.py](./simulation/simu_auxiliary.py) | Python script with auxiliary functions for simulation. |
 
 - ▶️ **How to Run**:
-  - Before running the simulation, make sure you have followed the [installation instructions](#-installation) above.
-  - Step 1: Execute the notebook [[Fig2]Simulation.ipynb](./simulation/[Fig2]Simulation.ipynb). The generated results will be (and already have been) saved in [results/](./simulation/results) folder with filenames of the form `simulation(N=xxx).csv`, where `N=100, 500, 1000`.
+  - Before running the simulation, make sure you have followed the [Installation](#-installation) above.
+  - Step 1: Execute the notebook [[Fig2]Simulation.ipynb](./simulation/[Fig2]Simulation.ipynb). The generated results will be (and already have been) saved in [results/](./simulation/results) folder with filenames of the form `simulation.csv`.
   - Step 2: Run the script [plot_simulation.R](./simulation/plot_simulation.R) to produce the subfigures for **Figure 2**, saved as `time_N=xxx.pdf` and `logMSE_N=xxx.pdf`, where `N=100, 500, 1000`.
