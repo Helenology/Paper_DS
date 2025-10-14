@@ -4,7 +4,6 @@ library(reshape2)
 
 # load data
 data = read.csv("./results/simulation.csv")
-data = data[, -c(1, 3)]
 
 ##################### MSE Comparison ##################### 
 MSE_data = data[, c("N", "CD_mse", "DS_mse", "GPA_CD_mse", "GPA_DS_mse")]
