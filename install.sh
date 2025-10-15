@@ -1,0 +1,11 @@
+pip install ipykernel==6.30.1
+pip install pyflann-py3==0.1.0
+pip install tensorflow_probability==0.20.1
+pip install tensorflow==2.12.0
+pip install scikit-learn==1.3.2
+pip install scikit-image==0.23.0
+pip install matplotlib==3.7.1
+pip install pandas==1.5.3
+pip install opencv-python==4.8.1.78
+pip install numpy==1.23.5
+pip install scipy==1.10.1

@@ -41,6 +41,7 @@ sh install.sh
 python -m ipykernel install --user --name env --display-name "Python (env)"
 ```
 
+- ⚠️ Note that **TensorFlow 2.12.0** is compiled with **CUDA 11.8** and **cuDNN 8.6.0**. If your local CUDA/cuDNN version is lower (e.g., cuDNN 8.1.x), `AveragePooling2D` may raise a "DNN library is not found" or "UnimplementedError" due to version mismatch. In that case, you can switch to an alternative CPU-based TensorFlow or upgrade your local CUDA/cuDNN version.
 
 
 ## 📊 Part I. Simulation
@@ -58,4 +59,4 @@ python -m ipykernel install --user --name env --display-name "Python (env)"
 - ▶️ **How to Run**:
   - Before running the simulation, make sure you have followed the [Installation](#-installation) above.
   - Step 1: Execute the notebook [[Fig2]Simulation.ipynb](./simulation/[Fig2]Simulation.ipynb). The generated results will be (and already have been) saved in [results/](./simulation/results) folder with filenames of the form `simulation.csv`.
-  - Step 2: Run the script [plot_simulation.R](./simulation/plot_simulation.R) to produce the subfigures for **Figure 2**, saved as `time_N=xxx.pdf` and `logMSE_N=xxx.pdf`, where `N=100, 500, 1000`.
+  - Step 2: Run the script [plot_simulation.R](./simulation/plot_simulation.R) to produce the subfigures for **Figure 2**, saved as `logtime_N=xxx.pdf` and `logMSE_N=xxx.pdf`.
