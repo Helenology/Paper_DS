@@ -8,18 +8,18 @@ The repository is organized into modular components, including simulation script
 ```bash
 .
 ├── README.md
-├── install.sh  # Shell script for setting up the required environment.
-├── models/ # Includes code for the CD, DS, and GPA methods.
-│   ├── CD/ # Includes code for the Classical nonparametric Density (CD) estimator.
-│   ├── DS/ # Includes code for the Doubly Smoothed (DS) estimator.
-│   └── GPA/ # Includes code for the Grid Point Approximation (GPA) method.
-├── simulation/ # Contains all simulation scripts, notebooks, and result files for the simulation study (Section 4.2).
+├── install.sh                 # Shell script for setting up the required environment.
+├── models/                    # Includes code for the CD, DS, and GPA methods.
+│   ├── CD/                    # Includes code for the Classical nonparametric Density (CD) estimator.
+│   ├── DS/                    # Includes code for the Doubly Smoothed (DS) estimator.
+│   └── GPA/                   # Includes code for the Grid Point Approximation (GPA) method.
+├── simulation/                # Contains all simulation scripts, notebooks, and result files for the simulation study (Section 4.2).
 │   ├── [Fig2]Simulation.ipynb # Jupyter notebook used to reproduce the results of Figure 2.
-│   ├── mean-540.npy # Mean image used for the simulation study.
-│   ├── plot_simulation.R # R script used to reproduce Figure 2.
-│   ├── results/ # Folder containing simulation outputs (CSV files and plots).
-│   └── simu_auxiliary.py # Python script with auxiliary functions for simulation.
-└── utils.py # Utility functions shared across simulation and model code.
+│   ├── mean-540.npy           # Mean image used for the simulation study.
+│   ├── plot_simulation.R      # R script used to reproduce Figure 2.
+│   ├── results/               # Folder containing simulation outputs (CSV files and plots).
+│   └── simu_auxiliary.py      # Python script with auxiliary functions for simulation.
+└── utils.py                   # Utility functions shared across simulation and model code.
 ```
 ---
 
