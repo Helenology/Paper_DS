@@ -14,9 +14,9 @@ The repository is organized into modular components, including simulation script
 │   ├── DS/                    # Includes code for the Doubly Smoothed (DS) estimator.
 │   └── GPA/                   # Includes code for the Grid Point Approximation (GPA) method.
 ├── simulation/                # Contains all simulation scripts, notebooks, and result files for the simulation study (Section 4.2).
-│   ├── [Fig2]Simulation.ipynb # Jupyter notebook used to reproduce the results of Figure 2.
+│   ├── Simulation.ipynb # Jupyter notebook used to reproduce the results of the simulation study (Section 4.2).
 │   ├── mean-540.npy           # Mean image used for the simulation study.
-│   ├── plot_simulation.R      # R script used to reproduce Figure 2.
+│   ├── plot_simulation.R      # R script used to reproduce Figure 3.
 │   ├── results/               # Folder containing simulation outputs (CSV files and plots).
 │   └── simu_auxiliary.py      # Python script with auxiliary functions for simulation.
 └── utils.py                   # Utility functions shared across simulation and model code.
@@ -50,13 +50,13 @@ python -m ipykernel install --user --name env --display-name "Python (env)"
 
 | File | Description |
 |:--------------------------------------------------:|:--------------------------------------------------:|
-| [[Fig2]Simulation.ipynb](./simulation/[Fig2]Simulation.ipynb) | Jupyter notebook used to reproduce the results of **Figure 2**. |
+| [Simulation.ipynb](./simulation/Simulation.ipynb) | Jupyter notebook used to reproduce the results of the simulation study (Section 4.2). |
 | [mean-540.npy](./mean-540.npy) | Mean image used for the simulation study. |
 | [results/](./simulation/results) | Folder containing simulation outputs (CSV files and plots). |
-| [plot_simulation.R](./simulation/plot_simulation.R) | R script used to reproduce **Figure 2**. |
+| [plot_simulation.R](./simulation/plot_simulation.R) | R script used to reproduce **Figure 3**. |
 | [simu_auxiliary.py](./simulation/simu_auxiliary.py) | Python script with auxiliary functions for simulation. |
 
 - ▶️ **How to Run**:
   - Before running the simulation, make sure you have followed the [Installation](#-installation) above.
-  - Step 1: Execute the notebook [[Fig2]Simulation.ipynb](./simulation/[Fig2]Simulation.ipynb). The generated results will be (and already have been) saved in [results/](./simulation/results) folder with filenames of the form `simulation.csv`.
-  - Step 2: Run the script [plot_simulation.R](./simulation/plot_simulation.R) to produce the subfigures for **Figure 2**, saved as `logtime_N=xxx.pdf` and `logMSE_N=xxx.pdf`.
+  - Step 1: Execute the notebook [Simulation.ipynb](./simulation/Simulation.ipynb). The generated results will be (and already have been) saved in [results/](./simulation/results) folder with filenames of the form `simulation.csv`.
+  - Step 2: Run the script [plot_simulation.R](./simulation/plot_simulation.R) to produce the subfigures for **Figure 3**, saved as `logtime_N=xxx.pdf` and `logMSE_N=xxx.pdf`.
