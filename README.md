@@ -1,7 +1,7 @@
 # Paper_DS
 
 This repository contains code for the paper  
-**"Doubly Smoothed Density Estimation with Application to Miners' Unsafe Act Detection."**
+[**"Doubly Smoothed Density Estimation with Application to Miners' Unsafe Act Detection."**](https://arxiv.org/abs/2510.22482) by Qianhan Zeng, Miao Han, Ke Xu, Feifei Wang, and Hansheng Wang (Technometrics, 2025+).
 
 
 The repository is organized into modular components, including simulation scripts, model implementations, and utility functions. A brief overview of the folder structure is provided below:
