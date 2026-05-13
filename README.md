@@ -1,23 +1,7 @@
 # Paper_DS
 
 This repository contains code for the paper  
-[**"Doubly Smoothed Density Estimation with Application to Miners' Unsafe Act Detection."**](https://www.tandfonline.com/doi/full/10.1080/00401706.2025.2582628) by Qianhan Zeng, Miao Han, Ke Xu, Feifei Wang, and Hansheng Wang (Technometrics, 2026). If you find this work useful for your research, please cite our paper:
-
-**Zeng, Q., Han, M., Xu, K., Wang, F., & Wang, H. (2026). Doubly Smoothed Density Estimation with Application to Miners' Unsafe Act Detection. *Technometrics*, 68(2), 358–367. https://doi.org/10.1080/00401706.2025.2582628**
-
-```bibtex
-@article{zeng2026doubly,
-  title={Doubly Smoothed Density Estimation with Application to Miners' Unsafe Act Detection},
-  author={Zeng, Qianhan and Han, Miao and Xu, Ke and Wang, Feifei and Wang, Hansheng},
-  journal={Technometrics},
-  volume={68},
-  number={2},
-  pages={358--367},
-  year={2026},
-  publisher={Taylor \& Francis},
-  doi={10.1080/00401706.2025.2582628}
-}
-
+[**"Doubly Smoothed Density Estimation with Application to Miners' Unsafe Act Detection."**](https://doi.org/10.1080/00401706.2025.2582628) by Qianhan Zeng, Miao Han, Ke Xu, Feifei Wang, and Hansheng Wang (Technometrics, 2026). 
 
 The repository is organized into modular components, including simulation scripts, model implementations, and utility functions. A brief overview of the folder structure is provided below:
 ```bash
@@ -75,3 +59,23 @@ python -m ipykernel install --user --name env --display-name "Python (env)"
   - Before running the simulation, make sure you have followed the [Installation](#-installation) above.
   - Step 1: Execute the notebook [Simulation.ipynb](./simulation/Simulation.ipynb). The generated results will be (and already have been) saved in [results/](./simulation/results) folder with filenames of the form `simulation.csv`.
   - Step 2: Run the script [plot_simulation.R](./simulation/plot_simulation.R) to produce the subfigures for **Figure 3**, saved as `logtime_N=xxx.pdf` and `logMSE_N=xxx.pdf`.
+
+ ## 📖 Citation
+
+ If you find this work useful for your research, please cite our paper:
+
+**Zeng, Q., Han, M., Xu, K., Wang, F., & Wang, H. (2026). Doubly Smoothed Density Estimation with Application to Miners' Unsafe Act Detection. *Technometrics*, 68(2), 358–367. https://doi.org/10.1080/00401706.2025.2582628**
+
+```bibtex
+@article{zeng2026doubly,
+  title={Doubly Smoothed Density Estimation with Application to Miners' Unsafe Act Detection},
+  author={Zeng, Qianhan and Han, Miao and Xu, Ke and Wang, Feifei and Wang, Hansheng},
+  journal={Technometrics},
+  volume={68},
+  number={2},
+  pages={358--367},
+  year={2026},
+  publisher={Taylor \& Francis},
+  doi={10.1080/00401706.2025.2582628}
+}
+```
